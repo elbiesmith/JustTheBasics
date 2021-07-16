@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Petals around the rose</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/site.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="border-bottom">Petals Around the Rose</h1>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col" id="firstDie"><img src="/img/one.png" class="img-fluid" alt=""></div>
+                    <div class="col" id="secondDie"><img src="/img/two.png" class="img-fluid" alt=""></div>
+                    <div class="col" id="thirdDie"><img src="/img/three.png" class="img-fluid" alt=""></div>
+                    <div class="col" id="fourthDie"><img src="/img/four.png" class="img-fluid" alt=""></div>
+                    <div class="col" id="fifthDie"><img src="/img/five.png" class="img-fluid" alt=""></div>   
+                </div>
+                <div class="row mt-2">
+                    <div class="col p-2"><button class="btn btn-dark" id="btnRoll">Roll The Dice</button></div>
+                    <div class="col border" id="result"></div>
+                    <div class="col">
+                        <form id="myForm" class="p-2">
+                            <input type="number" class="form-control" id="myGuess" placeholder="Guess"> 
+                        </form>
+                    </div>
+                    <div class="col p-2"><button class="btn btn-dark" id="btnGuess">Guess!</button></div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3">
+                        <h4 class="border-bottom">Instructions</h4>
+                        <p>Petals around the rose. Given 5 dice a number is generated. Can you solve the puzzle of how the number is determined?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col bg-warning">Large column on the right</div>
+        </div>
+
+
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="/js/site.js"></script>
+</body>
+
+</html>
